@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    font-family: "Sodo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left, 
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > * {
+    padding: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
